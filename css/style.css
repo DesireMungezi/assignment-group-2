@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    /*background-color: #fafafa;*/
+    background-color: #fafafa;
     color: #333;
     line-height: 1.6;
 }
@@ -66,25 +66,6 @@ section#home p {
     margin-top: 20px;
 }
 
-/*All the css for the projects is below*/
-body {
-    background-color: rgb(270, 220, 140);
-}
-
-.header1 {
-    background-color: rgb(220, 180, 110);
-    padding: 20px; 
-    border-radius: 4%;
-}
-
-.linker {
-    background-color: rgb(200, 160, 90);
-    font-size: 15px;
-    border-radius: 4%;
-    width: 80px;
-    height: 45px;
-    padding-left: 2%;
-    border-radius: 5%;
 }
 
 ol {
