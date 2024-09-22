@@ -16,7 +16,7 @@ body {
     border-radius: 4%;
     width: 80px;
     height: 45px;
-    padding-left: 2%;
+    padding-left: 3px;
     border-radius: 5%;
 }
 
@@ -27,7 +27,7 @@ ol {
 img {
     height: 70%;
     width: 100%;
-    boder: 5px solid #ccc;
+    border: 5px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     opacity: 0.8;
