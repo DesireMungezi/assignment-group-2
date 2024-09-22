@@ -4,6 +4,10 @@ body {
     color: #333;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header1 {
     background-color: rgb(220, 180, 110);
     padding: 20px; 
