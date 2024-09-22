@@ -21,7 +21,10 @@ body {
 }
 
 ol {
-    padding-left: 10%;
+    padding-left: 7%;
+}
+p {
+    padding-left: 1px;
 }
 
 img {
