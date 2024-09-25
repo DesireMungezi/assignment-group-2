@@ -41,3 +41,10 @@ img {
     filter: grayscale(10%);
 }
 
+#logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 2%;
+}
