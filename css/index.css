@@ -1,0 +1,223 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: rgb(133, 94, 43);
+    padding: 20px;
+}
+
+.homenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.homebuttons a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.homebuttons a:hover {
+    background-color: #264653;
+    transform: scale(1.1);
+}
+
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+
+.YumBake {
+    max-width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.slogan-text1 {
+    flex: 1;
+    font-size: 1.5rem;
+    color: #fff; 
+    padding: 20px;
+    background-color: #26465349; 
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: left;
+    animation: fadeInSlogan 2s ease-in-out;
+    max-width: 300px;
+}
+
+
+.slogan-text2 {
+    flex: 1;
+    font-size: 1.5rem;
+    color: #fff; 
+    padding: 20px;
+    background-color: #e76f5150; 
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: right;
+    animation: fadeInSlogan 2s ease-in-out 1s; 
+    max-width: 300px;
+}
+
+
+@keyframes fadeInSlogan {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slogan-text1, .slogan-text2 {
+        text-align: center;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+
+    .YumBake {
+        margin: 20px 0;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+/* Main section */
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+section#home {
+    background-color: #e9c46a;
+    padding: 50px;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+section#home h1 {
+    font-size: 3rem;
+    color: #264653;
+}
+
+section#home p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+}
+.slogan-text1 {
+    display: block;
+    font-size: 1.5rem;
+    color: whitesmoke; 
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    animation: fadeInSlogan 2s ease-in-out;
+}
+
+.slogan-text1 p {
+    margin: 5px 0;
+}
+
+.slogan-text2 {
+    display: block;
+    font-size: 1.5rem;
+    color: white; 
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    animation: fadeInSlogan 2s ease-in-out 1s; 
+}
+
+
+.YumBake{
+margin-top: 70px;
+}
+
+ol {
+    padding-left: 10%;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(133, 94, 43);
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
