@@ -14,5 +14,5 @@ setInterval(updateDateTime, 1000) //this will update the time every second.
 document.getElementById("button1").addEventListener("click",function(event)
     {
     if (event.target === this)
-        {document.body.style.backgroundImage = 'url("images/bakery1.png")'}
+        {document.body.style.backgroundColor = brown}
     });
